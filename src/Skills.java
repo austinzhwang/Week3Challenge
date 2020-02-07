@@ -12,7 +12,6 @@ public class Skills {
         this.proficiency = proficiency;
     }
 
-
     public String getSkillName() {
         return skillName;
     }
@@ -29,6 +28,7 @@ public class Skills {
         this.proficiency = proficiency;
     }
 
+    // String representation of a skills object
     public String toString() {
         return getSkillName() + ", " + getProficiency();
     }

@@ -48,6 +48,7 @@ public class Education {
         this.gradYear = gradYear;
     }
 
+    // String representation of a education object
     public String toString() {
         return getDegreeType() + " in " + getMajor() + ",\n" +
                 getUniName() + ", " + getGradYear() + "\n";

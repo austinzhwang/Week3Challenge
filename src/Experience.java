@@ -60,6 +60,7 @@ public class Experience {
         this.jobDesc = jobDesc;
     }
 
+    // String representation of a experience object
     public String toString() {
         int counter = 0;
         String str = "";
