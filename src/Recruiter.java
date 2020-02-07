@@ -5,7 +5,7 @@ public class Recruiter {
     private ArrayList<Resume> resumeList;
 
     public Recruiter() {
-        resumeList = new ArrayList();
+        resumeList = new ArrayList<>();
     }
 
     public void addResume(Resume resume) {
@@ -22,6 +22,5 @@ public class Recruiter {
         }
         return s;
     }
-
 
 }
